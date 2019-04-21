@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  data:
+    mongodb:
+      database: jwt
+      username: sa
+      password: sa123
+      authentication-database: admin
+      port: 27017
+      host: localhost
